@@ -1,0 +1,44 @@
+# idea
+.idea
+.bsp
+*.iml
+
+#alto-api
+modules/alto-api/target
+
+#alto-server
+modules/alto-server/logs
+modules/alto-server/target
+
+#docs
+modules/docs/target
+
+#flyway
+modules/flyway/target
+
+# building
+project/project
+project/target
+logs
+target
+data
+tmp
+dist
+.cache
+RUNNING_PID
+
+#VS Code
+.bloop/
+.metals/
+.vscode/
+project/.bloop/
+project/metals.sbt
+
+#Apple
+.DS_Store
+
+node_modules
+
+private
+!private/.gitkeep
+/.gradle
